@@ -1,0 +1,74 @@
+// Exercise 1: Calculate the Sum of Two Numbers
+
+a + b = c
+
+num1 + num2 = sum
+print sum
+
+ask for 2 numbers 
+add the 2 number together 
+print on the screen the sum of those 2 numbers
+
+START
+PROMPT user to enter first number
+READ num1
+PROMPT user to enter second number
+READ num2
+SET sum = num1 + num2
+PRINT sum
+END
+
+
+// Exercise 2: Check if a Number is Even or Odd
+
+(Your pseudocode here)
+START
+PROMPT user to enter a number
+READ num
+IF num % 2 == 0 THEN
+    PRINT "The number is even"
+ELSE
+    PRINT "The number is odd"
+ENDIF
+END
+
+// Exercise 3: 
+Write pseudo code that will perform the following.    
+
+a) Read in 5 separate numbers.   
+b) Calculate the average of the five numbers.
+c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+d) Write out the results found from steps b and c with a message describing what they are
+
+(Your pseudocode here)
+START
+INITIALIZE a list to store 5 numbers
+FOR i FROM 1 TO 5 DO
+    PROMPT user to enter a number
+    READ number
+    ADD number to the list
+ENDFOR
+
+SET sum = 0
+SET min = first number in the list
+SET max = first number in the list
+
+FOR each number in the list DO
+    ADD number to sum
+    IF number < min THEN
+        SET min = number
+    ENDIF
+    IF number > max THEN
+        SET max = number
+    ENDIF
+ENDFOR
+
+CALCULATE average = sum / 5
+
+PRINT "The average is", average
+PRINT "The minimum is", min
+PRINT "The maximum is", max
+END
+
+
+-- END --
